@@ -48,7 +48,7 @@ const Timer = () => {
         
         <div className='timer-container'>
             <TimerDisplay time={formatTime(time)} status={status}/>
-            <setion>
+            <section>
             {buttons.map((button, i) => (
                 <Button
                 key={i}
@@ -58,7 +58,7 @@ const Timer = () => {
                 />
                 
             ))}
-            </setion>
+            </section>
         </div>
     )
 }
